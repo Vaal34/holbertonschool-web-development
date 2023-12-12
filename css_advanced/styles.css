@@ -1,6 +1,7 @@
 body {
     background-image: url("./images/background.png");
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 header > div{
@@ -8,6 +9,7 @@ header > div{
     justify-content: space-between;
     margin-left: 175.67px;
     margin-right: 169.08px;
+    margin-top: 10px;
 }
 
 .word_header {
@@ -16,7 +18,6 @@ header > div{
     font-size: 12px;
     font-style: normal;
     font-weight: 700;
-    
     display: inline-flex;
     height: 15px;
     justify-content: center;
@@ -32,6 +33,7 @@ header > div{
     font-weight: 700;
     line-height: normal;
     text-align: center;
+    margin-top: 200px;
 }
 
 .main_part_title {
@@ -54,7 +56,7 @@ header > div{
 }
 
 .main_part_title button {
-    margin-top: 20px;
+    margin-top: 38px;
 
     width: 162px;
     height: 44px;
@@ -73,10 +75,374 @@ header > div{
     line-height: normal;
 }
 
-.main_part_person {
-    display: flex;
+.main_part_person h2{
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    margin-top: 180px;
 }
 
+.main_part_person h2 span{
+    color: #C271FF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 87.15px  150px 0rem 150px;
+}
+
+.avatar > div {
+    text-align: center; /* Pour centrer le contenu à l'intérieur de chaque div */
+    width: 150px;
+}
+
+.avatar h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px; /* 150% */
+    margin: 10px 0 0 0;
+}
+
+.avatar p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin: 2px 0 0 0;
+}
+
+.testimonial > div{
+    height: 392px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    margin-top: 100px;
+    background-color: #C271FF;
+}
+
+.testimonial img {
+    height: 150px;
+    width: auto;
+}
+
+.testimonial blockquote {
+    width: 730px;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.6px; /* 152.727% */
+    margin-top: 0;
+}
+
+.testimonial p {
+    margin: 0;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33.6px; /* 152.727% */
+    margin-left: 40px;
+}
+
+.testimonial div > p:last-child {
+    margin: 0;
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 33.6px; /* 152.727% */
+    margin-left: 40px;
+}
+
+.tutorials {
+    background-color: white;
+    padding-bottom: 87px;
+    padding-top: 87px;
+}
+
+.tutorials > h1 {
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0 0 74px 0;
+}
+
+.tutorials h1 span{
+    color: #C271FF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.tutorials > div{
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+}
+
+.tutorials > div > div {
+    width: 255px;
+    height: 335px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;
+    margin: 0 15px;
+}
+
+.tutorials div > div > h2 {
+    margin: 15px 0 15px 13px;
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.video > p {
+    width: 242px;
+    margin: 7.6px 0 15px 13px;
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+.rating_author {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 0 13px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin: 0 0 15px 13px;
+}
+
+.rating p {
+    margin-left: auto;
+    margin-right: 11px;
+    color: #C271FF;
+    text-align: right;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px; /* 192.857% */
+}
+
+.tutorials h3 {
+    color: #C271FF;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px; /* 192.857% */
+    margin: 0 0 0 13px;
+}
+
+.membership {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.membership h1 {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 58px;
+    margin-top: 70px;
+}
+
+.membership h1 span {
+    color: #C271FF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.membership > div {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.membership div > div {
+    margin: 0 35px;
+    justify-content: center;
+}
+
+.membership div > div > h2 {
+    margin-top: 26px;
+    margin-bottom: 13px;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 144.444% */
+}
+
+.membership div > div > p {
+    width: 215px;
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+}
+
+.membership button {
+    margin-top: 85px;
+    margin-bottom: 52px;
+
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 22px;
+    background: #C271FF;
+    border: 0;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.faq {
+    background-color: #FFF;
+    padding: 67px 0 47px 0;
+}
+
+.faq h1 {
+    text-align: center;
+    margin: 0 0 37px 0;
+
+    color: #071629;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.faq div > div {
+    display: flex;
+    justify-content: center;
+}
+
+.question { 
+    flex-direction: column;
+    width: 350px;
+    margin: 37px 110px;
+}
+
+.question h2 {
+    margin: 0 0 30px 0;
+    color: #071629;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.question p {
+    margin: 0;
+    color: rgba(7, 22, 41, 0.50);
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.footer_element {
+    display: flex;
+    margin: 101px 0 0 165px;
+    justify-content: space-between;
+
+}
+
+.footer_element > div {
+    flex-direction: row;
+    flex-shrink: 0;
+    margin-right: 240px;
+}
+
+.footer_element > div > a {
+    margin: 0 5px;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 74px;
+    margin-bottom: 39px;
+
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    opacity: 0.3517;
+} 
+
 body { 
-    background-color: burlywood;
+    background-color: #071629;
+    margin: 0;
 }
