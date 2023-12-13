@@ -98,12 +98,13 @@ header > div{
 
 .avatar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin: 87.15px  150px 0rem 150px;
 }
 
 .avatar > div {
+    margin: 0 66px;
     text-align: center; /* Pour centrer le contenu à l'intérieur de chaque div */
     width: 150px;
 }
